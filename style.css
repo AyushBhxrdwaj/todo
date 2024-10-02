@@ -12,50 +12,53 @@ body{
 
 }
 
+
+
 .container{
     display: flex;
-    justify-content: space-between;
-    width: 500px;
+    flex-direction: column;
     align-items: center;
-    height: 200px;
-    border: 3px solid #368156;
-    position: absolute;
-    top: 20px;
-    left: 490px;
-    border-radius: 10px;
-}
-
-.stats-counter{
-    margin-top: 5px;
-    border: 2px solid black;
-    height: 60px;
-    margin-right: 5px;
-    width: 60px;
-    border-radius: 50%;
-    background-color: whitesmoke;
-    font-weight: 700;
-    color: black
-}
-.stats-counter p{
-    text-align: center;
-    margin-top: 15px;
+    justify-content: center;
+    margin-top: 120px;
 }
 
 .stats-container{
-    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    border-radius: 20px;
+    border: 2px solid purple;
+    width: 500px;
+    height: 150px;
 }
 
 #progress-bar{
+    background-color:#DFF8EB;
     width:300px;
-    background-color: white;
-    height: 5px;
-    border-radius: 10px;
-    margin-top: 20px;
+    height: 4px;
+    margin-top: 30px;
+    border-radius: 2px;
 }
 
 #progress-count{
-    background-color:rgb(0, 255, 255);
-    width: 75%;
-    border-radius: 10px;
-    height: 5px;
+    background-color:purple;
+    width: 70%;
+    height: 4px;
 }
+
+.stats-counter{
+    width: 70px;
+    height: 70px;
+    border: 2px solid black ;
+    border-radius: 50%;
+    text-align: center;
+    align-content: center;
+    font-weight: 700;
+    background-color: whitesmoke;
+    color:blue;
+}
+
+
+
+
