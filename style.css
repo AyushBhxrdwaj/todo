@@ -1,0 +1,61 @@
+/* 368156 */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    background-color:#011638;
+    color:#DFF8EB;
+    
+
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    align-items: center;
+    height: 200px;
+    border: 3px solid #368156;
+    position: absolute;
+    top: 20px;
+    left: 490px;
+    border-radius: 10px;
+}
+
+.stats-counter{
+    margin-top: 5px;
+    border: 2px solid black;
+    height: 60px;
+    margin-right: 5px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    font-weight: 700;
+    color: black
+}
+.stats-counter p{
+    text-align: center;
+    margin-top: 15px;
+}
+
+.stats-container{
+    margin-left: 20px;
+}
+
+#progress-bar{
+    width:300px;
+    background-color: white;
+    height: 5px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+#progress-count{
+    background-color:rgb(0, 255, 255);
+    width: 75%;
+    border-radius: 10px;
+    height: 5px;
+}
