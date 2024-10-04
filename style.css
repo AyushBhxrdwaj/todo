@@ -112,3 +112,16 @@ li{
     text-decoration: line-through;
     color:rgb(250, 81, 137);
 }
+
+.end{
+    display: inline;
+}
+.end p{
+    color:#DFF8EB;
+    position:fixed;
+    bottom: 0;
+    left:20px;
+}
+.end p i{
+    color: red;
+}
