@@ -41,10 +41,12 @@ body{
     border-radius: 2px;
 }
 
+
 #progress-count{
     background-color:purple;
-    width: 70%;
+    width: 50%;
     height: 4px;
+    transition: 0.5s ease-in;
 }
 
 .stats-counter{
@@ -58,7 +60,55 @@ body{
     background-color: whitesmoke;
     color:blue;
 }
+.in{
+    margin-top: 20px;
+    margin-right: 5px;
+    height: 30px;
+    font-weight: 700;
+    width: 300px;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    box-shadow:5px 5px purple;
 
+}
+.sub{
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 40px;
+    height: 40px;
+    font-weight: 800;
+    border: none;
+    border-radius: 50%;
+}
 
+li{
+    list-style: none;
+}
+.taskItem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    background-color: darkorchid;
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 300px;
+    padding: 15px;
+    margin-right: 70px;
+}
+.task{
+    display: flex;
+}
+.task p{
+    margin-left: 10px;
+    color: white;
+}
 
-
+.first{
+    margin-right:4px;
+}
+.task .completed{
+    text-decoration: line-through;
+    color:rgb(250, 81, 137);
+}
